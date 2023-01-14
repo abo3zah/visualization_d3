@@ -1,9 +1,9 @@
 import './App.css';
+// import { Emoji } from './emoji/emoji'
+import { Main } from './datavisulization/main'
 
-export default function App() {
+export const App = () => {
   return (
-    <div className="App">
-      <h1>Hello</h1>
-    </div>
+    <Main />
   );
 }

@@ -1,0 +1,22 @@
+.tick line {
+     stroke: #C0C0BB;
+}
+
+.tick text {
+     fill: #8E8883;
+}
+
+.bars {
+     fill: #137B80
+}
+
+.label {
+     font-size: 1.5em;
+     font-weight: bolder;
+     fill: #8E8883;
+
+}
+
+.chartBackground {
+     fill:#F5F3F2;
+}
