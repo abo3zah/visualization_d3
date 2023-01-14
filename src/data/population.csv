@@ -1,4 +1,4 @@
-﻿"Region, subregion, country or area *",Location code,Type,Year,"Total Population, as of 1 July (thousands)","Male Population, as of 1 July (thousands)","Female Population, as of 1 July (thousands)","Median Age, as of 1 July (years)","Natural Change, Births minus Deaths (thousands)",Births (thousands),Births by women aged 15 to 19 (thousands),Total Deaths (thousands),Male Deaths (thousands),Female Deaths (thousands)
+﻿area,Location code,Type,Year,Total Population,Male Population,Female Population,Median Age,Change,Births,Births by women aged 15 to 19,Total Deaths,Male Deaths,Female Deaths
 WORLD,900,World,1950,2499322,1245363,1253959,22,43295,92083,10629,48789,25785,23004
 WORLD,900,World,1951,2543130,1267473,1275657,22,44322,92837,10742,48515,25505,23009
 WORLD,900,World,1952,2590271,1291400,1298871,22,49960,97607,11232,47647,24935,22711
