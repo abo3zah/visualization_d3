@@ -1,6 +1,4 @@
-import {format} from 'd3'
-
-export const Bars = ({data, yScale, xScale, xValue, yValue}) => (
+export const Bars = ({data, yScale, xScale, xValue, yValue, tickFormat}) => (
      data.map(
           d => 
                <rect
@@ -10,8 +8,8 @@ export const Bars = ({data, yScale, xScale, xValue, yValue}) => (
                     y={yScale(yValue(d))} 
                     width={xScale(xValue(d))} 
                     height={yScale.bandwidth()}>
-                    
-                    <title>{format("0.4s")(xValue(d))}</title>
+
+                    <title>{tickFormat(xValue(d))}</title>
 
                </rect>
      )

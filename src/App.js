@@ -1,9 +1,9 @@
-import './App.css';
 // import { Emoji } from './emoji/emoji'
-import { Main } from './datavisulization/main'
+// import { BarChart } from './barChart/barChart'
+import { WorldMap } from './worldMap/worldMap';
 
 export const App = () => {
   return (
-    <Main />
+    <WorldMap />
   );
 }

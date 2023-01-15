@@ -1,0 +1,28 @@
+.country{
+     fill: darkgreen;
+}
+
+.country:hover{
+     filter: brightness(2);
+     /* opacity: 0.3; */
+}
+
+.sea{
+     fill: darkblue;
+}
+
+.interiors {
+     fill: none;
+     stroke: rgb(170, 175, 170);
+}
+
+.graticule{
+     fill:none;
+     stroke: rgb(83, 83, 139);
+     opacity: 0.5;
+}
+
+.city {
+     fill: white;
+     opacity: 0.3;
+}
